@@ -83,8 +83,14 @@ a {
     transition: 1s;
 }
 
+
+
 .burger-menu:hover {
-    left: 0;
+    left:0;
+    animation-name: menu;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
 }
 
 
@@ -366,4 +372,14 @@ a {
 .footer-icon:hover {
     filter: brightness(117%);
     cursor: pointer;
+}
+
+
+@keyframes menu {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -430px;
+    }
 }
