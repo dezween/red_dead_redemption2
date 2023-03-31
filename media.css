@@ -1,0 +1,54 @@
+@media (max-width: 835px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 0.8rem;
+    }
+
+    .header {
+        background-position: -640px 0;
+    }
+
+    .gallery-content {
+        flex-direction: column;
+    }
+
+    .gallery-card {
+        width: 100%;
+    }
+
+    .footer-bottom-bg {
+        height: 330px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .disclaimer, .rockstar-logo {
+        align-self: center;
+    }
+    .disclaimer {
+        margin-bottom: 20px;
+    }
+
+    .rockstar-logo {
+        margin-top: 20px;
+    }
+
+    .footer-title {
+        font-size: 2rem;
+    }
+
+    .footer-top {
+        padding-bottom: 0;
+    }
+
+}
